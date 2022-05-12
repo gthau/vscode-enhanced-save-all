@@ -10,15 +10,19 @@
 		"Other"
 	],
 	"activationEvents": [
-    "onCommand:vscode-enhanced-save-all.save-all-except-untitled"
+    "onCommand:vscode-enhanced-save-all.save-all-except-untitled",
+    "onCommand:vscode-enhanced-save-all.save-all-in-group-except-untitled"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
 				"command": "vscode-enhanced-save-all.save-all-except-untitled",
-				"title": "Save All except Untitled"
 				"title": "Enhanced Save All: Save All except Untitled"
+			},
+			{
+				"command": "vscode-enhanced-save-all.save-all-in-group-except-untitled",
+				"title": "Enhanced Save All: Save All in Group except Untitled"
 			}
 		]
 	},
