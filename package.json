@@ -24,6 +24,18 @@
 				"command": "vscode-enhanced-save-all.save-all-in-group-except-untitled",
 				"title": "Enhanced Save All: Save All in Group except Untitled"
 			}
+		],
+		"keybindings": [
+			{
+				"command": "vscode-enhanced-save-all.save-all-except-untitled",
+				"key": "ctrl+k shift+s",
+				"mac": "cmd+k shift+s"
+			},
+			{
+				"command": "vscode-enhanced-save-all.save-all-except-untitled",
+				"key": "ctrl+k alt+s",
+				"mac": "cmd+k meta+s"
+			}
 		]
 	},
 	"scripts": {
